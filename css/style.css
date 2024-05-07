@@ -248,9 +248,10 @@ h6,
     background-attachment: fixed;
     display: flex;
     align-items: center;
+    overflow: hidden;
     .imgContainer {
       width: 400px;
-      max-width: 90%;
+      max-width: 75%;
     }
 }
 
