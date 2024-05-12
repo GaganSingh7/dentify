@@ -107,6 +107,15 @@ h6,
     transform: skew(40deg);
 }
 
+.navbar {
+    flex-wrap: nowrap;
+    .navbar-brand {
+        max-width: 78%;
+        white-space: normal;
+        margin-left: 8px !important;
+    }
+}
+
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Jost', sans-serif;
     padding: 35px 15px;
