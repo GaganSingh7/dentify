@@ -161,6 +161,16 @@ h6,
         font-weight: 600 !important;
     }
 }
+@media (max-width: 768px) {
+ .bg-peek-into-clinic, .bg-peek-into-reception {
+    background-size: contain !important;
+    height: 375px !important;
+ }
+
+ .bg-peek-into-reception .imgContainer {
+    display: none;
+ }
+}
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -262,11 +272,12 @@ h6,
     display: flex;
     align-items: center;
     overflow: hidden;
-    .imgContainer {
-      width: 400px;
-      max-width: 75%;
-    }
 }
+
+.bg-peek-into-clinic  .imgContainer {
+    width: 400px;
+    max-width: 75%;
+  }
 
 .bg-peek-into-reception {
   background:url(../img/reception.jpg) center center no-repeat;
@@ -276,11 +287,12 @@ h6,
   display: flex;
   align-items: center;
   overflow: hidden;
-  .imgContainer {
+}
+
+.bg-peek-into-reception  .imgContainer {
     width: 400px;
     max-width: 75%;
   }
-}
 
 .offer-text {
     background: rgba(6, 163, 218, .85);
