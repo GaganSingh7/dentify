@@ -238,6 +238,14 @@ h6,
   height: 300px;
 }
 
+.our-dentist .position-relative.rounded-top {
+  height: 350px;
+}
+
+.our-dentist .position-relative.rounded-top img {
+  height: 100%;
+}
+
 .service-item:hover img {
     transform: scale(1.15);
 }
